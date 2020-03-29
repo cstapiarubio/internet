@@ -1,0 +1,10 @@
+button{
+    display:block;
+}
+
+#lateral_last{
+    background-image: url("../img/ad_background.png");
+}
+#lateral_left, #lateral_right{
+    display:inline-block;
+}
