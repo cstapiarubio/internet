@@ -5,6 +5,12 @@
 
 button{
     display:block;
+    color:white;
+    border-radius: 5px;
+    margin:5px;
+    padding:10px;
+    width:250px;
+    background-color:#4e81ac;
 }
 
 #lateral_last{
@@ -12,10 +18,11 @@ button{
 }
 #lateral_left, #lateral_right{
     display:inline-block;
+    padding:10px;
 }
 
 header{
-    height: 300px;
+    height: 180px;
 }
 
 #texto_header{
@@ -38,4 +45,40 @@ header h2{
     font-size: 30px;
     margin-left: 10px;
     padding:20px;
+}
+
+#lateral_first{
+    padding:10px;
+}
+
+#lateral_first p{
+    font-weight: bolder;
+}
+
+#lateral_first p:first-child{
+    font-size: 20px;
+}
+ 
+#lateral_first button:last-child{
+    background-color: #ef7e00;
+}
+
+#lateral_last button{
+    background-color: #32c8df;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+hr{
+    height:1px;
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lateral_last p{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    padding:10px;
 }
