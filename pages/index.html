@@ -32,14 +32,18 @@
 
     <div id="lateral_right">
         <div id="central_up">
-            <img src="../src/img/home.png">
-            <p>DNS</p>
-            <img src="../src/img/phone.png">
-            <p>Mon-Fri 9 am-5 pm (EST)</p>
-            <span>855.967.3787</span>
-            <p>International +1.617.963.0555</p>
+            <div id="center-top">
+                <img src="../src/img/home.png">
+                <p>DNS</p>
+            </div>
+            <div id="center-bottom">
+                <img src="../src/img/phone.png">
+                <p>Mon-Fri 9 am-5 pm (EST)</p><br>
+                <span>855.967.3787</span><br>
+                <p>International +1.617.963.0555</p>
+            </div>
         </div>
-        <div>
+        <div id="client">
             <h3>Clients and Servers</h3>
             <p>Computers connected to the Web are called clients and servers</p>
             <ul>
@@ -50,15 +54,15 @@
             </ul>
             <img src="../src/img/client_server.jpg">
             <h3>So What Actually Happens?</h3>
-            <ul>
+            <ol>
                 <li>The browser goes to the DNS server and finds the real address of the server that the website lives on</li>
                 <li>The browser sends and HTTP request message to the server asking it to send a copy of the website to the client</li>
                 <li>If the server approves the clienta "200 OK" message, which means "Permission granted! Here you go!", and then starts sending the websites files to 
                     the browser as a series of small chunks</li>
                 <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
-            </ul>
+            </ol>
         </div>
-        <div>
+        <div id="bottom">
             <img src="../src/img/html.png">
             <h3>The Big 3- HTML, CSS, Javascript</h3>
             <p>While the server can the process information i many different languages, the files that they serve to the client are always going to be some combination of 

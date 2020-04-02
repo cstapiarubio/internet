@@ -29,6 +29,11 @@ header{
     background-color: #4e81ac;
 }
 
+#client h3{
+    color: #4e81ac;
+    margin-bottom: 10px;
+}
+
 header img{
     width: 80px;
     margin-left: 10px;
@@ -82,3 +87,62 @@ hr{
     font-size: 30px;
     padding:10px;
 }
+
+#lateral_left{
+    width:30%;
+    vertical-align: top;
+}
+
+#lateral_right{
+    width: 60%;
+    margin-left: 50px;
+}
+
+#center-top, #center-bottom, #center-top p, #center-bottom p{
+    display:inline-block;
+}
+
+#center-top img, #center-bottom img{
+    width:10%;
+    vertical-align: bottom;
+}
+
+#center-bottom{
+    margin-left: 60%;
+    vertical-align: top;
+    width: 40%;
+}
+
+#center-top{
+    width: 40%;
+}
+
+#client p, #client ul li, #client ol li{
+    margin-bottom: 10px;
+}
+
+#client ul li{
+margin-left: 30px;
+}
+
+#client img{
+    width: 50%;
+    margin-left: 20%;
+}
+
+#bottom{
+    border: #4e81ac solid 3px;
+}
+
+#bottom img{
+    width: 30%;
+}
+
+#bottom p, #bottom h3{
+    display: inline-flex;
+    width: 50%;
+    vertical-align: top;
+    text-align: right;
+    margin-left: 200px;
+}
+
