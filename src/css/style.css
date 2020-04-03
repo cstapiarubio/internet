@@ -102,19 +102,38 @@ hr{
     display:inline-block;
 }
 
-#center-top img, #center-bottom img{
+#center-top img{
     width:10%;
-    vertical-align: bottom;
 }
 
-#center-bottom{
-    margin-left: 60%;
+#center-bottom img{
+    width: 8%;
+    top:10px;
     vertical-align: top;
-    width: 40%;
+}
+
+#central-up{
+    position: relative;
+}
+
+
+#center-bottom{
+    position: absolute;
+	top: 0;
+	bottom: 20%;
+	left: 70%;
+	right: 0;
+	width: 50%;
+	height: 30%;
+    margin: auto;
 }
 
 #center-top{
     width: 40%;
+}
+
+#client{
+    margin-top: 10%;
 }
 
 #client p, #client ul li, #client ol li{
@@ -132,6 +151,7 @@ margin-left: 30px;
 
 #bottom{
     border: #4e81ac solid 3px;
+    position: relative;
 }
 
 #bottom img{
@@ -139,10 +159,29 @@ margin-left: 30px;
 }
 
 #bottom p, #bottom h3{
-    display: inline-flex;
-    width: 50%;
-    vertical-align: top;
-    text-align: right;
-    margin-left: 200px;
+    display: block;
+    position: absolute;
+	top: 10px;
+    right: 0;
+    left:40%;
+	width: 50%;
+}
+
+#bottom p{
+    margin-top: 30px;
+}
+
+/*#padre {
+	position: relative;
+}
+#hijo {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 50%;
+	height: 30%;
+	margin: auto;
 }
 
